@@ -2,19 +2,34 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Мой сайт с ElevenLabs</title>
+    <title>KOMOFLOOR - Напольные покрытия</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; }
-        h1 { color: #333; }
-        .widget-container { margin: 20px auto; width: 300px; height: 200px; border: 1px solid #ccc; }
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-image: url('floor-background.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
     </style>
 </head>
 <body>
-    <h1>Добро пожаловать на мой сайт!</h1>
-    <p>Здесь будет виджет ElevenLabs:</p>
-    <div class="widget-container">
-        <elevenlabs-convai agent-id="TtBw6izWOoWNAmlAASFR"></elevenlabs-convai>
-    </div>
+    <h1>KOMOFLOOR (МОСКВА) НАПОЛЬНЫЕ ПОКРЫТИЯ ИЗ МАССИВА ЭКЗОТИЧЕСКИХ ПОРОД</h1>
+    <elevenlabs-convai agent-id="TtBw6izWOoWNAmlAASFR"></elevenlabs-convai>
     <script src="https://elevenlabs.io/convai-widget/index.js" async type="text/javascript"></script>
 </body>
 </html>
